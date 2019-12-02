@@ -1,0 +1,20 @@
+body {
+	background #eee;
+}
+table {
+	width: 100%;
+	border-collapse:collapse;
+}
+th,td {
+	border: 1px solid #000;
+	padding:10px;
+}
+thead {
+	background:orange;
+}
+colgroup col:nth-child(3) {
+	background:red;
+}
+colgroup col:nth-child(4) {
+	background:pink;
+}
